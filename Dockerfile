@@ -1,4 +1,4 @@
-FROM node:22-bookworm-slim
+FROM node:18-alpine
 RUN apt-get update && apt-get remove -y zlib1g
 RUN npm install -g npm@9.1.3
 
